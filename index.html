@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8" />
+    <title>Tarea 1</title>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link
+      href="//fonts.googleapis.com/css?family=Raleway:400,300,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/skeleton.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/blog.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/inter.css" /> 
+    <link rel="stylesheet" href="css/styles2.css" />
+    <!-- 
+  -->
+
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+  </head>
+  <body>
+    <nav>
+      <div class="navBar">
+        <a href="" class="logomark"
+          ><svg xmlns="http://www.w3.org/2000/svg" height="22" width="22">
+            <path
+              d="M11 0C4.926 0 0 4.926 0 11s4.926 11 11 11 11-4.926 11-11S17.074 0 11 0zm-.02 1.049h.002a.07.07 0 00.018 0c4.548 0 8.384 3.052 9.57 7.217a17.315 17.315 0 01-4.213 5.496c-.847.733-1.773 1.383-2.79 1.842-1.018.458-2.136.719-3.247.656a5.6 5.6 0 01-2.271-.633 18.276 18.276 0 005.078-4.12c.956-1.116 1.791-2.39 2.115-3.833.165-.722.19-1.48.04-2.207a4.079 4.079 0 00-.999-1.965 4.013 4.013 0 00-1.855-1.098 4.85 4.85 0 00-2.153-.078c-1.423.261-2.693 1.086-3.705 2.108-1.787 1.8-2.89 4.34-2.687 6.875.102 1.267.524 2.511 1.252 3.554.143.205.302.398.467.584a16.228 16.228 0 01-3.086.739A9.946 9.946 0 0110.98 1.049zm.07 2.02c.004-.001.016.002.012.001.692 0 1.387.211 1.936.627a3.2 3.2 0 011.068 1.49 4.12 4.12 0 01.192 1.848c-.143 1.243-.77 2.388-1.533 3.393-1.354 1.778-3.156 3.203-5.159 4.2-.19.095-.386.187-.582.274a5.114 5.114 0 01-1.05-1.295c-.59-1.044-.784-2.284-.67-3.482.116-1.199.526-2.356 1.082-3.43.643-1.244 1.516-2.418 2.732-3.09a4.14 4.14 0 011.973-.537zm9.83 6.81c.042.367.071.739.071 1.117 0 5.497-4.452 9.953-9.95 9.953a9.917 9.917 0 01-7.59-3.53 18.138 18.138 0 003.17-1.06c.461.346.967.634 1.507.84 1.59.61 3.392.52 4.996-.035 1.603-.555 3.021-1.549 4.256-2.705a18.264 18.264 0 003.54-4.58z"
+            ></path></svg
+        ></a>
+        <a href="">Asistencia</a>
+        <a href="" target="_self">Desarrollo</a>
+        <a href="">Participar</a>
+        <a href="" target="_self">Tienda</a>
+        <a href="" target="_self">Blog</a>
+      </div>
+    </nav>
+
+    <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container">
+      <section class="" style="display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-direction: column;">
+        <div class="" style="-webkit-box-flex: 0; flex: auto; max-width: 100%; padding:0 0 16px;">
+          <div class="" style="display: block;">
+            <h1 id="logotype" alt="elementary OS">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 454.22 65.577"
+              >
+                <path
+                  class="logotype-svg"
+                  style="text-align: start"
+                  d="M388.22 0c-3.287 0-6.357.717-9.22 2.125a23.81 23.81 0 00-7.406 5.562c-2.066 2.348-3.686 5.043-4.906 8.094a26.399 26.399 0 00-1.782 9.565c0 3.192.592 6.323 1.72 9.375 1.126 3.05 2.715 5.745 4.78 8.092 2.066 2.348 4.496 4.233 7.313 5.688 2.86 1.455 6.024 2.187 9.5 2.187 3.284 0 6.337-.67 9.154-2.03 2.817-1.41 5.278-3.263 7.344-5.563 2.11-2.347 3.73-5.043 4.905-8.094a25.796 25.796 0 001.844-9.656c0-3.098-.562-6.152-1.69-9.157-1.125-3.05-2.715-5.762-4.78-8.156-2.02-2.392-4.48-4.324-7.344-5.78C394.793.75 391.646 0 388.22 0zm48.124 0c-2.676 0-5.09.296-7.25.906-2.113.564-3.95 1.452-5.5 2.625a11.83 11.83 0 00-3.53 4.22c-.8 1.644-1.19 3.53-1.19 5.688 0 2.066.375 3.81 1.126 5.22.75 1.36 1.857 2.53 3.313 3.468 1.502.892 3.293 1.64 5.406 2.25 2.157.563 4.634 1.077 7.404 1.594 2.863.562 5.356 1.185 7.47 1.842 2.11.658 3.856 1.468 5.217 2.407 1.363.937 2.344 2.06 3 3.373.66 1.267 1 2.84 1 4.718 0 3.757-1.463 6.56-4.374 8.44-2.863 1.83-6.774 2.75-11.75 2.75-3.802 0-7.214-.577-10.218-1.75-2.96-1.175-5.685-3.09-8.22-5.72l-1.063.906c2.676 2.676 5.56 4.67 8.657 5.938 3.145 1.22 6.744 1.812 10.78 1.812 5.493 0 9.778-1.06 12.876-3.218 3.145-2.16 4.72-5.292 4.72-9.376 0-2.207-.438-4.045-1.283-5.5s-2.06-2.67-3.656-3.657c-1.55-.985-3.434-1.81-5.687-2.468-2.254-.658-4.762-1.25-7.53-1.814-2.77-.563-5.17-1.124-7.19-1.687-1.97-.61-3.607-1.328-4.874-2.126-1.268-.845-2.203-1.858-2.814-3.032-.61-1.22-.906-2.716-.906-4.5 0-1.83.297-3.482.908-4.937.61-1.454 1.59-2.685 2.906-3.72 1.314-1.077 2.98-1.903 5-2.467 2.065-.563 4.51-.843 7.375-.843 2.955 0 5.51.39 7.623 1.187 2.16.8 4.216 2.28 6.187 4.44l.908-.97c-1.972-2.16-4.138-3.702-6.532-4.594C442.31.466 439.536 0 436.344 0zM42.406.594V44.47c0 3.097 2.042 5.75 5.563 5.75h3.185l-.03-1.345c-.07 0-1.162.03-3.063.03-2.747 0-4.22-2.394-4.22-4.436V.592h-1.437zm194.844 0v44c0 3.38 2.933 5.625 6.313 5.625 3.872 0 4.335.07 4.406 0v-1.41h-4.408c-2.465 0-4.696-1.472-4.907-4.218V14.75h10.188v-1.406h-10.188V.594h-1.406zm150.97.812c3.097 0 5.964.655 8.592 1.97a22.113 22.113 0 016.97 5.343c1.97 2.204 3.513 4.775 4.593 7.685a24.2 24.2 0 011.688 8.938c0 2.957-.546 5.886-1.625 8.75A24.424 24.424 0 01404 41.748c-1.878 2.252-4.184 4.09-6.906 5.5-2.676 1.36-5.636 2.03-8.875 2.03-3.194 0-6.108-.654-8.784-1.97a21.838 21.838 0 01-6.906-5.28 26.811 26.811 0 01-4.592-7.656 25.784 25.784 0 01-1.625-9.03c0-2.96.53-5.856 1.562-8.72 1.08-2.863 2.575-5.434 4.5-7.688 1.925-2.253 4.23-4.044 6.906-5.406 2.725-1.407 5.7-2.124 8.94-2.124zm-74.314 1.28c-.803.05-1.614.26-2.312.658a4.932 4.932 0 00-2.25 2.812c-.242.802-.233 1.666-.156 2.5.085.928.264 1.826.53 2.72.198.66.457 1.3.72 1.936-1.03.005-2.065.028-3.094.032-.25.004-2.197.022-3.188.312-5.243 1.537-8.483 4.27-10.97 9.125l.002-9.435h-1.407v36.53h1.41V26.782c.914-3.343 2.604-6.266 5-8.405 2.393-2.14 5.485-3.484 9.217-3.625 1.15-.046 2.384-.047 3.563-.063l16.374 35.187c-5.563 12.674-5.773 13.11-6.125 13.53-.495.494-1.06.75-3.315.75l-1.25-.03v1.406l1.25.032c2.606 0 4.015-.552 4.72-1.75l.5-.843 21.75-49.626h-1.563l-15.282 34.78-15.405-33.468c.745-.01 1.51.037 2.25-.062.8-.107 1.56-.427 2.25-.844.724-.437 1.372-.976 1.875-1.656.7-.946 1.062-2.137 1.094-3.313.027-.997-.17-1.986-.625-2.874a5.954 5.954 0 00-1.47-1.813 6.049 6.049 0 00-2.626-1.282 5.79 5.79 0 00-1.438-.125h-.03zm.438 1.158c.78.008 1.552.298 2.187.75.638.45 1.148 1.087 1.5 1.78.44.862.646 1.85.565 2.813-.082.964-.43 1.895-1.063 2.625a4.482 4.482 0 01-3.655 1.5h-1.813L311.47 12a13.191 13.191 0 01-.783-2.625c-.175-.918-.31-1.88-.062-2.78.248-.904.888-1.64 1.688-2.126.613-.375 1.313-.635 2.03-.627zM212.688 12.75c-10.28 0-14.188 9.388-14.188 16.78v20.345h1.406V29.53c0-7.674 4.19-15.374 12.78-15.374 8.592 0 12.75 7.7 12.75 15.375v20.346h1.408V29.53c0-7.392-3.876-16.78-14.156-16.78zm-195.72.03C6.76 12.78.283 21.93 0 31.72c0 9.364 7.384 18.874 17.594 18.874 5.492 0 12.278-3.047 14.53-8.75h-1.53c-2.183 4.788-7.65 7.343-13 7.343-8.943 0-15.554-7.91-16.188-16.78h33.438v-.75c-.14-10-7.172-18.876-17.875-18.876zm55.25 0c-10.21 0-16.686 9.15-16.968 18.94 0 9.364 7.415 18.874 17.625 18.874 5.492 0 12.247-3.047 14.5-8.75h-1.5c-2.183 4.788-7.65 7.343-13 7.343-8.942 0-15.585-7.91-16.22-16.78h33.47v-.75c-.14-10-7.203-18.876-17.906-18.876zm37.813 0c-5.983 0-10.692 4.583-12.123 10.19-.7 2.738-.937 3.63-.937 26.905h1.405c0-20.486.054-22.017.438-24.813.897-5.91 5.075-10.935 11.218-10.875 6.56 0 12.87 4.226 12.5 15.47 0 2.993.096 8.145.096 11.968 0 4.284-.094 8.25-.094 8.25h1.407s.15-13.597 0-20.22c-.245-10.665 5.52-15.455 11.906-15.468 6.653.1 11.758 5.12 12.156 12.094.202 3.537.094 17.597.094 23.596h1.406c0-23.335-.228-24.368-.72-26.844-1.046-5.278-6.27-10.25-12.936-10.25-6.934 0-11.96 5.04-12.438 10.626-.563-5.633-6.545-10.625-13.375-10.625zm63.658 0c-10.21 0-16.687 9.15-16.968 18.94 0 9.364 7.414 18.874 17.624 18.874 5.492 0 12.247-3.047 14.5-8.75h-1.5c-2.183 4.788-7.65 7.343-13 7.343-8.943 0-15.585-7.91-16.22-16.78h33.47v-.75c-.14-10-7.204-18.876-17.906-18.876zm95.188 0c-4.506 0-8.854 2.177-12.656 4.782l.842 1.125c4.084-2.886 8.292-4.5 11.813-4.5 7.253 0 11.97 5.193 11.97 12.657V31c-1.902-.704-6.266-2.03-12.25-2.03-6.338 0-15.064 2.52-15.064 10.405 0 6.267 5.227 11.22 11.846 11.22 5.703 0 11.737-2.12 15.47-6.908v3.375c0 1.48.91 2.743 2.53 2.813h1.406V48.47h-1.405c-.775 0-.984-.563-1.125-1.408V26.844c0-7.887-4.573-14.063-13.375-14.063zM16.97 14.188c9.364 0 15.77 7.307 16.405 16.813H1.405C1.83 22.975 7.322 14.19 16.97 14.19zm55.25 0c9.364 0 15.77 7.307 16.405 16.813h-31.97c.424-8.026 5.917-16.812 15.564-16.812zm101.468 0c9.364 0 15.772 7.307 16.406 16.813h-31.97c.423-8.026 5.917-16.812 15.564-16.812zm94.906 16.188c4.084 0 8.236.638 12.25 2.187v7.25c0 .845-.327 1.82-1.03 2.875-2.888 4.507-9.088 6.5-14.44 6.5-5.42 0-10.437-3.897-10.437-9.812 0-6.83 7.672-9 13.657-9z"
+                  fill="#333"
+                ></path>
+              </svg>
+            </h1>
+            <p style="text-align: center;">
+              Un sustituto hecho a conciencia, potente y ético para Windows y
+              macOS
+            </p>
+          </div>
+        </div>
+        <div class="" style="position: relative;">
+          <img
+            class="" 
+            style="display: block; margin:0 auto; max-height: 67vh;"
+            src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/notebook.jpg"
+            alt="PC portátil genérico"
+          />
+          <img
+          style="height: 78%; left: 50%; position: absolute; top: 2%; transform: translateX(-50%); border-radius: 4px;"
+            src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/desktop.jpg"
+            alt="elementary OS 6.1 Jólnir desktop"
+          />
+        </div>
+        <div class="" style="-webkit-box-flex: 0; flex: 0 0 auto; max-width: 100%; padding: 0 0 16px; margin: 0 auto; text-align: center; width: auto;">
+          <div class="" style="display: block;">
+            <div class="row" id="" style="display: inline-block;">
+              <div class="four column">
+
+                <h4 id="pay-what-you-want">Pague lo que pueda:</h4>
+              </div>
+
+              <div class="four column" id="choice-buttons">
+                <button
+                  id="amount-ten"
+                  value="10"
+                  class="small-button payment-button target-amount"
+                >
+                  10
+                </button>
+                <button
+                  id="amount-twenty"
+                  value="20"
+                  class="small-button payment-button target-amount checked"
+                >
+                  20
+                </button>
+                <button
+                  id="amount-thirty"
+                  value="30"
+                  class="small-button payment-button target-amount"
+                >
+                  30
+                </button>
+                <div>
+                  <span class="pre-amount">$</span>
+                  <input
+                    type="number"
+                    step="0.01"
+                    min="0"
+                    max="999999.99"
+                    id="amount-custom"
+                    class="button small-button target-amount"
+                    placeholder="Personalizado"
+                  />
+                  <p class="small-label focus-reveal text-center">
+                    Introduzca una cantidad en dólares.
+                  </p>
+                </div>
+              </div>
+              <div class="four column">
+                <button type="submit" id="download" class="suggested-action">
+                  Comprar elementary OS
+                </button>
+                <p class="small-label">
+                  <span data-l10n-off="1"
+                    >elementary OS 6.1 Jólnir (2.47 GB)</span
+                  ><br />
+                  <a
+                    href=""
+                    target="_blank"
+                    rel="noopener"
+                    >Recommended System Specs</a
+                  >
+                  |
+                  <a
+                    href=""
+                    target="_blank"
+                    rel="noopener"
+                    >FAQ</a
+                  >
+                </p>
+              </div>
+              <div style="clear: both"></div>
+              <div class="twelve column" id="payment-trust">
+                <img
+                  src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/payment-card-visa.svg"
+                  alt="Visa"
+                  title="Visa cards accepted"
+                />
+                <img
+                  src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/payment-card-mastercard.svg"
+                  alt="Mastercard"
+                  title="Mastercard cards accepted"
+                />
+                <img
+                  src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/payment-card-discover.svg"
+                  alt="Discover"
+                  title="Discover cards accepted"
+                />
+                <img
+                  src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/payment-card-amex.svg"
+                  alt="American Express"
+                  title="American Express cards accepted"
+                />
+                <img
+                  src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/payment-card-diners-club.svg"
+                  alt="Diner’s Club"
+                  title="Diner's Club cards accepted"
+                />
+                <img
+                  src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/payment-card-jcb.svg"
+                  alt="JCB"
+                  title="JCB cards accepted"
+                />
+                <img
+                  src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/payment-card-unionpay.svg"
+                  alt="UnionPay"
+                  title="UnionPay cards accepted"
+                />
+                <p class="small-label text-center">
+                  Pagos procesados y protegidos por
+                  <a href="" target="_blank" rel="noopener"
+                    ><i class="fab fa-stripe"><span>Stripe</span></i></a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="whats-new" class="grey">
+        <div class="grid">
+          <div class="two-thirds">
+            <h2>What’s New in elementary OS 6.1 Jólnir</h2>
+            <p>
+              Larger strides in less time than ever before with a redesigned
+              window switcher, much improved apps, better portals, and
+              refinements in every corner. OS 6.1 addresses your feedback, gets
+              stuff done around the office, and expands compatibility with a
+              wide range of hadware
+            </p>
+            <a
+              href=""
+              target="_blank"
+              rel="noopener"
+              class="read-more"
+              >Leer el anuncio</a
+            >
+          </div>
+        </div>
+        <div class="blog-container">
+          <a
+            class="featured with-image"
+            href=""
+            ><div
+              class="featured-image"
+              alt="Featured image"
+              style="
+                background-image: url(https://blog.elementary.io/images/elementary-os-6-odin-updates-september-2021/card.jpg);
+              "
+            ></div>
+            <header>
+              <h4>Updates for January, 2022</h4>
+              <p>What’s new in OS 6.1, plus shifting development to OS 7</p>
+              <div class="byline">
+                <div class="avatar">
+                  <img
+                    srcset="
+                      Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/41275ecc8271aca852ce2c0ff72d2610_002.jpg 2x
+                    "
+                    src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/41275ecc8271aca852ce2c0ff72d2610.jpg"
+                    alt="Avatar for Cassidy James Blaede"
+                  />
+                </div>
+                <div class="author">
+                  <span class="name">Cassidy James Blaede</span>
+                </div>
+                <time
+                  class="post-date"
+                  datetime="Mon, 31 Jan 2022 00:00:00 -0600"
+                  >Mon, Jan 31, 2022</time
+                ><span class="read-time" title="Estimated read time"
+                  >10 min read</span
+                >
+              </div>
+            </header></a
+          ><a
+            class="featured with-image"
+            href=""
+            ><div
+              class="featured-image"
+              alt="Featured image"
+              style="
+                background-image: url(https://blog.elementary.io/images/2021-ui-study-results-dock-multitasking/card.jpg);
+              "
+            ></div>
+            <header>
+              <h4>2021 UI Study Results</h4>
+              <p>Digging into the dock, multitasking, and more</p>
+              <div class="byline">
+                <div class="avatar">
+                  <img
+                    srcset="
+                      Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/41275ecc8271aca852ce2c0ff72d2610_002.jpg 2x
+                    "
+                    src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/41275ecc8271aca852ce2c0ff72d2610.jpg"
+                    alt="Avatar for Cassidy James Blaede"
+                  />
+                </div>
+                <div class="author">
+                  <span class="name">Cassidy James Blaede</span>
+                </div>
+                <time
+                  class="post-date"
+                  datetime="Thu, 27 Jan 2022 00:00:00 -0600"
+                  >Thu, Jan 27, 2022</time
+                ><span class="read-time" title="Estimated read time"
+                  >15 min read</span
+                >
+              </div>
+            </header></a
+          ><a
+            class="featured with-image"
+            href=""
+            ><div
+              class="featured-image"
+              alt="Featured image"
+              style="
+                background-image: url(https://blog.elementary.io/images/elementary-os-6-1-available-now/card.png);
+              "
+            ></div>
+            <header>
+              <h4>elementary OS 6.1 Available Now</h4>
+              <p>We come bearing gifts and Yule tidings!</p>
+              <div class="byline">
+                <div class="avatar">
+                  <img
+                    srcset="
+                      Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/1f3cc76b99b5d0dae8381a23f52ea96d_002.jpg 2x
+                    "
+                    src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/1f3cc76b99b5d0dae8381a23f52ea96d.jpg"
+                    alt="Avatar for Danielle Foré"
+                  />
+                </div>
+                <div class="author">
+                  <span class="name">Danielle Foré</span>
+                </div>
+                <time
+                  class="post-date"
+                  datetime="Mon, 20 Dec 2021 00:00:00 -0600"
+                  >Mon, Dec 20, 2021</time
+                ><span class="read-time" title="Estimated read time"
+                  >27 min read</span
+                >
+              </div>
+            </header></a
+          >
+        </div>
+      </section>
+
+
+      <section id="appcenter">
+        <div class="app-display app-display--overflow">
+          <img
+            class="app-display__image"
+            src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/appcenter.png"
+            alt="Página de inicio del Centro de aplicaciones de elementary OS"
+            width="1081"
+            height="669"
+          />
+          <div class="app-display__description">
+            <img
+              src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/system-software-install.svg"
+              alt="Icono del Centro de aplicaciones de elementary"
+            />
+            <h2>Consígalo en el <strong>Centro de aplicaciones</strong></h2>
+            <p>
+              Consiga aplicaciones gratuitas y de pago en el Centro de
+              aplicaciones, la tienda de programas de código abierto y precio
+              libre para desarrolladores independientes. elementary revisa cada
+              una de las aplicaciones para garantizar una experiencia nativa,
+              respetuosa de la privacidad y segura.
+            </p>
+            <div class="buttons">
+              <a
+                href=""
+                target="_blank"
+                rel="noopener"
+                class="button flat"
+                >Descubra aplicaciones en el Centro de aplicaciones</a
+              >
+              <a
+                href=""
+                target="_blank"
+                rel="noopener"
+                class="button flat"
+                >Lea el blog del Centro de aplicaciones</a
+              >
+              <a href="" class="button flat"
+                >Conviértase en desarrollador</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="workflow" class="grey">
+        <div class="grid">
+          <div class="two-thirds">
+            <h1>Productividad y diversión al máximo</h1>
+            <p>
+              Eleve su productividad y concentración con la vista multitarea, el
+              modo minipantalla y la función No molestar. O elimine toda
+              notificación del trabajo mientras ve vídeos o juega.
+            </p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="third">
+            <figure class="multitasking">
+              <div class="workspace"></div>
+            </figure>
+            <h4>Vista multitarea</h4>
+            <p>
+              Las áreas de trabajo le ayudan a organizar sus pendientes por
+              tarea. Separe el trabajo y el ocio, pero ambos quedan a solo un
+              gesto de distancia.
+            </p>
+          </div>
+          <div class="third">
+            <figure class="pip">
+              <div class="workspace">
+                <img
+                  class="window"
+                  src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/videos.png"
+                  alt="Captura de pantalla de Vídeos"
+                  width="1124"
+                  height="555"
+                />
+              </div>
+            </figure>
+            <h4>Modo minipantalla</h4>
+            <p>
+              Trátese de una película, un juego o un proceso del terminal, el
+              modo minipantalla le permite estar al tanto de una cosa mientras
+              trabaja en otra.
+            </p>
+          </div>
+          <div class="third">
+            <figure class="dnd">
+              <div class="workspace">
+                <img
+                  class="window"
+                  src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/code.png"
+                  alt="Captura de pantalla de Código"
+                  width="1174"
+                  height="703"
+                />
+                <div class="notification" type="notification">
+                  <img
+                    src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/internet-mail.svg"
+                  />
+                </div>
+                <div class="notification" type="notification">
+                  <img
+                    src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/internet-mail.svg"
+                  />
+                </div>
+                <div class="notification" type="notification">
+                  <img
+                    src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/internet-mail.svg"
+                  />
+                </div>
+              </div>
+            </figure>
+            <h4>No molestar</h4>
+            <p>
+              Apártelo todo y conserve su concentración en el trabajo, o
+              mantenga a raya todas las notificaciones mientras mira una
+              película. El modo No molestar interrumpe la emisión de
+              notificaciones.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div id="showcase" class="row grey initialized" style="height: 574.2px">
+          <div id="showcase-index" class="active">
+            <div>
+              <h2>Solo con las aplicaciones que necesita.</h2>
+              <p>
+                elementary OS incluye un conjunto de aplicaciones cuidadosamente
+                seleccionadas para responder a las necesidades diarias, de tal
+                manera que pueda aprovechar más su equipo sin tener que lidiar
+                con <em>bloatware</em>.
+              </p>
+            </div>
+            <ul id="showcase-grid">
+              <a href=""
+                ><li class="read-more">
+                  <img
+                    src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/multimedia-audio-player.svg"
+                    alt="Icono de la aplicación Música"
+                  />Música
+                </li></a
+              >
+              <a href=""
+                ><li class="read-more">
+                  <img
+                    src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/internet-web-browser.svg"
+                    alt="Icono de la aplicación Navegador"
+                  />Web
+                </li></a
+              >
+              <a href=""
+                ><li class="read-more">
+                  <img
+                    src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/internet-mail.svg"
+                    alt="Icono de la aplicación Correo"
+                  />Correo
+                </li></a
+              >
+              <a href=""
+                ><li class="read-more">
+                  <img
+                    src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/multimedia-photo-manager.svg"
+                    alt="Icono de la aplicación Fotos"
+                  />Fotos
+                </li></a
+              >
+              <a href=""
+                ><li class="read-more">
+                  <img
+                    src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/multimedia-video-player.svg"
+                    alt="Icono de la aplicación Vídeos"
+                  />Vídeos
+                </li></a
+              >
+              <a href=""
+                ><li class="read-more">
+                  <img
+                    src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/office-calendar.svg"
+                    alt="Icono de la aplicación Calendario"
+                  />Calendario
+                </li></a
+              >
+              <a href=""
+                ><li class="read-more">
+                  <img
+                    src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/system-file-manager.svg"
+                    alt="Icono de la aplicación Gestor de archivos"
+                  />Archivos
+                </li></a
+              >
+              <a href=""
+                ><li class="read-more">
+                  <img
+                    src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/utilities-terminal.svg"
+                    alt="Icono de la aplicación Terminal"
+                  />Terminal
+                </li></a
+              >
+              <a href=""
+                ><li class="read-more">
+                  <img
+                    src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/io.svg"
+                    alt="Icono de la aplicación Editor de código"
+                  />Código
+                </li></a
+              >
+              <a href=""
+                ><li class="read-more">
+                  <img
+                    src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/accessories-camera.svg"
+                    alt="Icono de la aplicación Cámara"
+                  />Cámara
+                </li></a
+              >
+            </ul>
+          </div>
+          <div class="showcase-tab" id="showcase-music">
+            <div class="showcase-back"></div>
+            <div class="app-display">
+              <img
+                class="app-display__image"
+                src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/music.png"
+                alt="Captura de pantalla de Música"
+                width="1164"
+                height="664"
+              />
+              <div class="app-display__description">
+                <img
+                  src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/multimedia-audio-player.svg"
+                  alt="Icono de Música"
+                />
+                <div>
+                  <h2>Música</h2>
+                  <p>
+                    Organice y escuche su música. Navegue por los álbumes, use
+                    la búsqueda rápida y cree listas de reproducción con sus
+                    temas predilectos.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="showcase-tab" id="showcase-epiphany">
+            <div class="showcase-back"></div>
+            <div class="app-display">
+              <img
+                class="app-display__image"
+                src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/web.png"
+                alt="Captura de pantalla de Web"
+              />
+              <div class="app-display__description">
+                <img
+                  src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/internet-web-browser.svg"
+                  alt="Icono de Web"
+                />
+                <div>
+                  <h2>Web</h2>
+                  <p>
+                    Explore la Red mediante un navegador rápido y ligero. Web le
+                    permite utilizar sitios y aplicaciones modernos sin vulnerar
+                    su privacidad ni afectar la vida de la batería.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="showcase-tab" id="showcase-mail">
+            <div class="showcase-back"></div>
+            <div class="app-display">
+              <img
+                class="app-display__image"
+                src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/mail.png"
+                alt="Captura de pantalla de Correo"
+                width="1352"
+                height="777"
+              />
+              <div class="app-display__description">
+                <img
+                  src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/internet-mail.svg"
+                  alt="Icono de Correo"
+                />
+                <div>
+                  <h2>Correo</h2>
+                  <p>
+                    Gestione múltiples cuentas de correo electrónico de forma
+                    rápida con mensajes de correo electrónico organizados en
+                    conversaciones, búsqueda instantánea, notificaciones y mucho
+                    más.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="showcase-tab" id="showcase-photos">
+            <div class="showcase-back"></div>
+            <div class="app-display">
+              <img
+                class="app-display__image"
+                src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/photos.png"
+                alt="Captura de pantalla de Fotos"
+                width="1174"
+                height="730"
+              />
+              <div class="app-display__description">
+                <img
+                  src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/multimedia-photo-manager.svg"
+                  alt="Icono de Fotos"
+                />
+                <div>
+                  <h2>Fotos</h2>
+                  <p>
+                    Importe, organice y edite fotografías. Cree pases de
+                    diapositivas. Compártalas en servicios en línea.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="showcase-tab" id="showcase-videos">
+            <div class="showcase-back"></div>
+            <div class="app-display">
+              <img
+                class="app-display__image"
+                src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/videos.png"
+                alt="Captura de pantalla de Vídeos"
+                width="1124"
+                height="555"
+              />
+              <div class="app-display__description">
+                <img
+                  src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/multimedia-video-player.svg"
+                  alt="Icono de Vídeos"
+                />
+                <div>
+                  <h2>Vídeos</h2>
+                  <p>
+                    Reproducción inteligente y sencilla de películas con
+                    videoteca, previsualizaciones de fotogramas en la barra de
+                    búsqueda, compatibilidad con subtítulos, pantalla completa
+                    inteligente y reanudación a partir del último punto de
+                    reproducción.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="showcase-tab" id="showcase-calendar">
+            <div class="showcase-back"></div>
+            <div class="app-display">
+              <img
+                class="app-display__image"
+                src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/calendar.png"
+                alt="Captura de pantalla de Calendario"
+                width="1039"
+                height="765"
+              />
+              <div class="app-display__description">
+                <img
+                  src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/office-calendar.svg"
+                  alt="Icono de Calendario"
+                />
+                <div>
+                  <h2>Calendario</h2>
+                  <p>
+                    Visualice y cree eventos con facilidad. Sincronícelos con
+                    cuentas en línea.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="showcase-tab" id="showcase-files">
+            <div class="showcase-back"></div>
+            <div class="app-display">
+              <img
+                class="app-display__image"
+                src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/files.png"
+                alt="Captura de pantalla de Archivos"
+                width="924"
+                height="608"
+              />
+              <div class="app-display__description">
+                <img
+                  src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/system-file-manager.svg"
+                  alt="Icono de Archivos"
+                />
+                <div>
+                  <h2>Archivos</h2>
+                  <p>
+                    La barra de direcciones inteligente hace más fácil la
+                    navegación web, las búsquedas o la compleción automática de
+                    direcciones. Navegue rápidamente gracias a la vista por
+                    columnas y disfrute de una navegación avanzada con
+                    herramientas como el historial de pestañas.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="showcase-tab" id="showcase-terminal">
+            <div class="showcase-back"></div>
+            <div class="app-display">
+              <div class="app-display__image">
+                <img
+                  src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/terminal.png"
+                  alt="Captura de pantalla de Terminal"
+                  width="788"
+                  height="555"
+                />
+              </div>
+              <div class="app-display__description">
+                <img
+                  src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/utilities-terminal.svg"
+                  alt="Icono de Terminal"
+                />
+                <div>
+                  <h2>Terminal</h2>
+                  <p>
+                    Esquemas de color intercambiables diseñados para evitar la
+                    fatiga visual, historial de pestañas, nomenclatura
+                    inteligente, notificaciones de finalización de tareas, copia
+                    y pega integrado, búsqueda de tareas pendientes, protección
+                    contra el pegado y mucho más. ¿Quién dice que no se puede
+                    enseñar nuevos trucos a una aplicación antigua?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="showcase-tab" id="showcase-code">
+            <div class="showcase-back"></div>
+            <div class="app-display">
+              <img
+                class="app-display__image"
+                src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/code.png"
+                alt="Captura de pantalla de Código"
+                width="1174"
+                height="703"
+              />
+              <div class="app-display__description">
+                <img
+                  src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/io.svg"
+                  alt="Icono de Código"
+                />
+                <div>
+                  <h2>Código</h2>
+                  <p>
+                    Hecho a medida con guardado automático, carpetas de
+                    proyectos, integración con Git, espacios inteligentes,
+                    compatibilidad con EditorConfig, minimapa, símbolos de Vala
+                    y extensiones como los atajos para Markdown y la emulación
+                    de Vim. Código es el editor perfecto para usted.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="showcase-tab" id="showcase-camera">
+            <div class="showcase-back"></div>
+            <div class="app-display">
+              <img
+                class="app-display__image"
+                src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/camera.png"
+                alt="Captura de pantalla de Cámara"
+                width="704"
+                height="544"
+              />
+              <div class="app-display__description">
+                <img
+                  src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/accessories-camera.svg"
+                  alt="Icono de Cámara"
+                />
+                <div>
+                  <h2>Cámara</h2>
+                  <p>
+                    Haga fotos o vídeos de la cámara web integrada o USB con
+                    sencillez.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="parental-controls" class="grey">
+        <div class="app-display app-display--overflow">
+          <img
+            class="app-display__image"
+            src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/screen-time-limits.png"
+            alt="Tiempo ante pantalla y límites de elementary&nbsp;OS"
+            width="892"
+            height="659"
+          />
+          <div class="app-display__description">
+            <h2>
+              <img
+                src="Un%20sustituto%20hecho%20a%20conciencia,%20potente%20y%20%C3%A9tico%20para%20Windows%20y%20macOS%20%E2%8B%85%20elementary%C2%A0OS_files/preferences-system-parental-controls.svg"
+                alt="Icono de un adulto que toma la mano de un menor"
+              />
+              Tiempo ante pantalla y límites
+            </h2>
+            <svg height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M7.5 0C3.37 0 0 3.37 0 7.5S3.37 15 7.5 15 15 11.63 15 7.5 11.63 0 7.5 0zm0 2C10.55 2 13 4.45 13 7.5S10.55 13 7.5 13 2 10.55 2 7.5 4.45 2 7.5 2zm2.965 2.002a.5.5 0 00-.072.008v.008a.5.5 0 00-.25.156L7.486 6.823 5.83 5.174a.5.5 0 10-.687.688l2 2a.5.5 0 00.687 0l3-3a.5.5 0 00-.365-.86z"
+                fill="#666"
+                font-family="sans-serif"
+                font-weight="400"
+                overflow="visible"
+                style="
+                  line-height: normal;
+                  font-variant-ligatures: normal;
+                  font-variant-position: normal;
+                  font-variant-caps: normal;
+                  font-variant-numeric: normal;
+                  font-variant-alternates: normal;
+                  font-feature-settings: normal;
+                  text-indent: 0;
+                  text-align: start;
+                  text-decoration-line: none;
+                  text-decoration-style: solid;
+                  text-decoration-color: #000;
+                  text-transform: none;
+                  text-orientation: mixed;
+                  shape-padding: 0;
+                  isolation: auto;
+                  mix-blend-mode: normal;
+                "
+                color="#000"
+              ></path>
+            </svg>
+            <h4>Tiempo ante pantalla</h4>
+            <p>
+              Establezca límites de tiempo según el usuario para los días de la
+              semana, fines de semana o ambos.
+            </p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+              <path
+                style="marker: none"
+                overflow="visible"
+                fill="#666"
+                d="M8 0a8 8 0 00-8 8c0 4.418 3.23 7.072 7.012 7.9l.02-.855c-1.113-.113-1.24-.316-2.188-.795.051-.04.125-.094.125-.094l-.063-.125.219-.218.062-.22.344-.093.25-.687-.062-.157.156-.28.406-.095.188-.468-.032-.625.313-.438.031-.437c-.426-.216-.827-.434-1.25-.657l-.219-.437-.375-.094-.218-.562-.5.062-.47-.344-.468.438v.062c-.141-.041-.311-.046-.437-.125l-.094-.312v-.313l-.313.032c.026-.21.068-.447.094-.657h-.187l-.188.25-.187.094-.25-.156-.032-.313.032-.375.406-.28h.312l.063-.188.375.093.281.344.063-.594.5-.406.156-.469.375-.156.219-.281.468-.094.22-.375h-.688l.437-.187h.313l.406-.157.062.407.188-.282-.219-.156.063-.156-.157-.156-.187-.032.062-.187-.156-.281-.312.125.062-.25-.375-.22-.281.532.031.156-.281.125-.188.407-.062-.375-.5-.188-.094-.281.656-.375.282-.281.03-.344-.155-.094h-.063c.228-.158.442-.307.688-.437v.093l-.22.188-.155.375h.312l.094-.25.031-.063c.126-.09.247-.194.375-.28l.313.093c.194.135.368.272.562.406l.313-.281L6 1.969l-.125-.313-.563-.062v-.063c.01-.004.022.004.031 0l.188.063.156-.156.281-.063c.071-.035.148-.065.22-.094L6 1.469l.656.469v.281l-.25.281.344.688.25-.125.281-.469c.42-.132.823-.286 1.219-.469l-.031.188.187.125.344-.25L8.844 2l-.25.125-.032-.031.344-.937-.344-.125a6.89 6.89 0 013.407 1.218l-.282-.062-.343-.125-.5.125-.313.219v.187L10 2.938l.125.5.281-.219.188.219.218.125.125-.375-.062-.219.062-.156.313-.281h.125l-.125.312v.281c.123-.034.249-.046.375-.062l-.344.25-.031.156-.406.344-.407-.094v-.25l-.187.125.094.219h-.313l-.156.281-.188.219-.375.062.22.22.062.218-.248-.033.437.406.217-.123.031-.125.406-.094.219.25.25.125-.156.281.219-.062.125-.281-.282-.313h.125l.25.219.063.312.219.282.062-.407.125-.062c.132.14.232.31.344.469l.437.03.219.157-.094.156-.25.22h-.343l-.47-.157-.218.031-.187.188-.5-.5-.336-.092 3.279 3.277s.168-.136.525-.31v-.22c-.16.021-.311.052-.468.063l.312-.343.438-.313.25-.281v-.281c-.054-.104-.103-.241-.157-.344l-.218.281L14.062 7l-.25-.187v-.375l.282.312.312-.03c.14.129.283.226.406.374l.094-.125c.05.338.094.68.094 1.031-.113 1.124.036 1.155-.479 2.096l.672.79c.698-1.143.794-1.37.807-2.886a8 8 0 00-8-8zm2.258 5.69l-.035-.036.027.033zM4.75 2.219l.281.218h.25v-.25L5 2.062zm-.938.187l-.062.157s-.103.014-.188.03c.081-.066.167-.124.25-.187zm8.438.031c.065.05.124.105.187.157l-.25.28-.343-.374h.343zm-3.031.407v.187l.125.156v.282l-.063.406.313-.063.25-.218-.22-.22a5.832 5.832 0 00-.218-.53zm-.282.406l-.187.062.031.375.281-.156zM8 4.842v10.38l2.344-2.288 1.34 2.734c.328.74 2.033.145 1.548-.844l-1.326-2.838h2.96zm4.594 1.752l.28.343.376.782.219.25-.125.28.218.25c-.09.007-.187 0-.28 0a10.63 10.63 0 01-.438-1.124l-.22-.25-.124-.469zM1.031 7.5c.042.1.219.406.219.406l.531.313.563.156.218.313.375.28.188-.062.156.094v.031l-.187.594-.157.219.032.125-.125.468.468.844.47.438.218.28-.031.657.156.344-.156.687s.002.024 0 .032a7.01 7.01 0 01-2.97-5.72c0-.167.02-.334.032-.5z"
+                color="#bebebe"
+              ></path>
+            </svg>
+            <h4>Uso de internet</h4>
+            <p>
+              Gestione los sitios web permitidos. Las reglas afectan todas las
+              aplicaciones de la cuenta de usuario escogida, aunque utilice un
+              navegador web distinto.
+            </p>
+            <svg height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M2.5 2S2 2 2 2.5v3s0 .5.5.5h3S6 6 6 5.5v-3S6 2 5.5 2zm8 0s-.5 0-.5.5v3s0 .5.5.5h3s.5 0 .5-.5v-3s0-.5-.5-.5zM3 3h2v2H3zm8 0h2v2h-2zm-8.5 7s-.5 0-.5.5v3s0 .5.5.5h3s.5 0 .5-.5v-3s0-.5-.5-.5zm8 0s-.5 0-.5.5v3s0 .5.5.5h3s.5 0 .5-.5v-3s0-.5-.5-.5zM3 11h2v2H3zm8 0h2v2h-2z"
+                fill="#666"
+                overflow="visible"
+                style="marker: none"
+                color="#bebebe"
+              ></path>
+            </svg>
+            <h4>Gestione las aplicaciones</h4>
+            <p>
+              Elija qué aplicaciones son seguras para que accedan usted o sus
+              hijos. Además, opcionalmente, permita el acceso por medio de una
+              contraseña.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="grid">
+          <div class="two-thirds">
+            <h1>Todo lo que hacemos es de código abierto</h1>
+            <p>
+              Nuestra plataforma consiste totalmente de componentes de código
+              abierto y se basa en una plataforma sólida de programas libres
+              (como GNU/Linux). Además, colaboramos de manera activa con el
+              ecosistema para mejorarlo para todos.
+            </p>
+            <a class="read-more" href=""
+              >Explore nuestras tecnologías</a
+            >
+          </div>
+        </div>
+        <div class="grid">
+          <div class="half">
+            <h2>Seguro y respetuoso de la privacidad</h2>
+            <p>
+              Como el código fuente está disponible para su revisión, cualquiera
+              (un investigador de seguridad, un usuario preocupado o un
+              fabricante que incluye el sistema en sus equipos) puede verificar
+              que el <em>software</em> es seguro y no filtra información
+              personal.
+            </p>
+            <a
+              class="read-more"
+              href=""
+              target="_blank"
+              rel="noopener"
+              >Avisos de seguridad</a
+            >
+          </div>
+          <div class="half">
+            <h2>Hecho para los desarrolladores</h2>
+            <p>
+              Tanto si su aplicación puede beneficiarse de una función o API
+              nueva del sistema, como si tiene curiosidad por saber cómo se ha
+              creado una prestación o una pauta de diseño existentes, tiene
+              acceso completo a nuestro código fuente. Cópielo, aprenda de él,
+              remézclelo, modifíquelo y redistribúyalo.
+            </p>
+            <a
+              class="read-more"
+              href=""
+              >Participar</a
+            >
+          </div>
+        </div>
+      </section>
+
+
+
+
+    </div>
+
+    <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  </body>
+</html>
