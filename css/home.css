@@ -258,7 +258,7 @@ input:focus+.focus-reveal {
  }
 }
 #showcase.initialized>div.showcase-tab>.showcase-back {
- background-image:url(../images/home/back-arrow.svg);
+ background-image:url(../images/back-arrow.svg);
  background-position:50%;
  background-repeat:no-repeat;
  cursor:pointer;
@@ -271,9 +271,9 @@ input:focus+.focus-reveal {
 #showcase.initialized {
  background-color:#3689e6;
  background-image:-webkit-gradient(linear,left top,left bottom,from(rgba(13,82,191,.25)),to(rgba(0,115,103,.33))),-webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,0)),to(rgba(0,0,0,.5))),url("../images/home/wallpaper.jpg");
- background-image:-webkit-linear-gradient(top,rgba(13,82,191,.25),rgba(0,115,103,.33)),-webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,.5)),url("../images/home/wallpaper.jpg");
- background-image:-o-linear-gradient(top,rgba(13,82,191,.25),rgba(0,115,103,.33)),-o-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,.5)),url("../images/home/wallpaper.jpg");
- background-image:linear-gradient(to bottom,rgba(13,82,191,.25),rgba(0,115,103,.33)),linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,.5)),url("../images/home/wallpaper.jpg");
+ background-image:-webkit-linear-gradient(top,rgba(13,82,191,.25),rgba(0,115,103,.33)),-webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,.5)),url("../images/wallpaper.jpg");
+ background-image:-o-linear-gradient(top,rgba(13,82,191,.25),rgba(0,115,103,.33)),-o-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,.5)),url("../images/wallpaper.jpg");
+ background-image:linear-gradient(to bottom,rgba(13,82,191,.25),rgba(0,115,103,.33)),linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,.5)),url("../images/wallpaper.jpg");
  background-position:center;
  background-size:cover;
  color:#fff;
@@ -327,10 +327,10 @@ input:focus+.focus-reveal {
 }
 #whats-new::before {
  background-color:#667885;
- background-image:url("../images/brand/logomark-white.svg"),-webkit-gradient(linear,left top,left bottom,from(rgba(54,137,230,.25)),to(rgba(13,82,191,.75))),url("../images/home/wallpaper.jpg");
- background-image:url("../images/brand/logomark-white.svg"),-webkit-linear-gradient(top,rgba(54,137,230,.25),rgba(13,82,191,.75)),url("../images/home/wallpaper.jpg");
- background-image:url("../images/brand/logomark-white.svg"),-o-linear-gradient(top,rgba(54,137,230,.25),rgba(13,82,191,.75)),url("../images/home/wallpaper.jpg");
- background-image:url("../images/brand/logomark-white.svg"),linear-gradient(to bottom,rgba(54,137,230,.25),rgba(13,82,191,.75)),url("../images/home/wallpaper.jpg");
+ background-image:url("../images/logomark-white.svg"),-webkit-gradient(linear,left top,left bottom,from(rgba(54,137,230,.25)),to(rgba(13,82,191,.75))),url("../images/home/wallpaper.jpg");
+ background-image:url("../images/logomark-white.svg"),-webkit-linear-gradient(top,rgba(54,137,230,.25),rgba(13,82,191,.75)),url("../images/home/wallpaper.jpg");
+ background-image:url("../images/logomark-white.svg"),-o-linear-gradient(top,rgba(54,137,230,.25),rgba(13,82,191,.75)),url("../images/home/wallpaper.jpg");
+ background-image:url("../images/logomark-white.svg"),linear-gradient(to bottom,rgba(54,137,230,.25),rgba(13,82,191,.75)),url("../images/home/wallpaper.jpg");
  background-size:contain,cover,cover;
  background-position:center;
  border:1px solid rgba(0,0,0,.35);
@@ -413,7 +413,7 @@ input:focus+.focus-reveal {
  }
 }
 #workflow figure {
- background-image:url(../images/screenshots/desktop.jpg);
+ background-image:url(../images/desktop.jpg);
  background-repeat:no-repeat;
  background-size:contain;
  border-radius:2px;
@@ -445,7 +445,7 @@ input:focus+.focus-reveal {
 #workflow figure.multitasking .workspace,
 #workflow figure.multitasking::after {
  border-radius:2px;
- background-image:url(../images/screenshots/desktop.jpg);
+ background-image:url(../images/desktop.jpg);
  background-repeat:no-repeat;
  background-size:cover;
  -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.1),0 2px 8px rgba(0,0,0,.5);
